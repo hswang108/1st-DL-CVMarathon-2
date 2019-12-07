@@ -6,7 +6,7 @@
 ## Day01~10 - [基本影像處理](./Handout)
 
 ### Day01 - [OpenCV簡介 + 顯示圖片](./Day001_Read%20Image)
-- 如何開始使⽤用 OpenCV
+- 如何開始使用 OpenCV
 - 如何透過 OpenCV 讀取圖片
 
 ### Day02 - [Color Presentation 介紹(RGB, LAB, HSV)](./Day002_Color%20Space)
