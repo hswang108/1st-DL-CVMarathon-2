@@ -64,3 +64,50 @@
 - 池化 ( Pooling ) 的原理
 - 池化的方式與優缺點
 - 為何 CNN 需要連結全連接層？
+
+### Day14 - [CNN分類器架構：Batch Normalization](./Day014_BatchNormalization)
+- 理解 Batch Normalization 原理
+- Batch Normalization 用來解決什麼問題
+
+### Day15 - [訓練一個CNN分類器：Cifar10為例](./Day015_Cifar)
+- 如何運⽤用前幾章概念？
+- 如何建造一個CNN分類器？
+
+### Day16 - [如何使用Data Augmentation](./Day016_Image%20Augmentation)
+- 了解圖像增強的意義
+- 了解如何使用 Keras 做 Image Augmentation
+- 了解如何使用 Imgaug
+
+### Day17&18 - [AlexNet & VGG](./Day017-018_VGG16)
+- 了解Imagenet中CNN框架的演進
+- 了解AlexNet、Vgg的優勢
+
+### Day19 - [InceptionV1-V3](./Day019_Inception)
+- 了解InceptionV1-V3的演進
+
+### Day20 - [ResNetV1-V2、InceptionV4、Inception-ResNet](./Day020_Classic%20CNN-ResNet_InceptionV4_Inception-ResNet)
+- 了解ResNet中殘差網路的概念
+- 了解如何導入殘差網路於Inception Block 中
+
+### Day21 - [Transfer learning](./Day021_Transfer%20Learning)
+- 了解 Transfer Learning 的優勢
+- 了解如何使用 Keras 做Transfer Learning
+
+### Day22 - [Breaking Captchas with a CNN](./Day022_Captcha)
+- 了解如何應用 CNN 在驗證碼識別
+
+
+
+## Day23~41 - [CNN 應用案例學習](./Handout)
+
+### Day23 - [Object detection原理](./Handout)
+- Object Detection 用來解決怎麼樣的問題
+- 如何設計 Object Detection 的 Loss
+- One Stage 與 Two Stage 的差異
+
+### Day24 - [Object detection基本介紹、演進](./Handout)
+- 了解 Object Detection 的發展與各個模型的基本概念
+
+### Day25 - [Region Proposal、IOU概念](./Day025_IOU)
+- 了解 Intersection-over-union ( IOU ) 的原理與運用
+- 如何計算 Intersection-over-union ( IOU ) 
