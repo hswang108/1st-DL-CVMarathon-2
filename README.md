@@ -1,6 +1,6 @@
 # 第一屆 深度學習與電腦視覺馬拉松
-
-
+<br>
+<br>
 
 
 ## Day01~10 - [基本影像處理](./Handout)
@@ -45,8 +45,8 @@
 - 了解如何透過特徵去配對
   * 透過距離來判斷特徵的相似程度
   * 配對演算法
-  
-  
+<br> 
+<br>  
   
 ## Day11~22 - [電腦視覺深度學習基礎](./Handout)
 
@@ -95,8 +95,8 @@
 
 ### Day22 - [Breaking Captchas with a CNN](./Day022_Captcha)
 - 了解如何應用 CNN 在驗證碼識別
-
-
+<br>
+<br>
 
 ## Day23~41 - [CNN 應用案例學習](./Handout)
 
@@ -111,3 +111,28 @@
 ### Day25 - [Region Proposal、IOU概念](./Day025_IOU)
 - 了解 Intersection-over-union ( IOU ) 的原理與運用
 - 如何計算 Intersection-over-union ( IOU ) 
+
+### Day26 - [RPN架構介紹](./Day026_RPN)
+- 了解Faster R-CNN 中的Region proposal network (RPN)結構
+
+### Day27 - [Bounding Box Regression原理](./Day027_BBOX%20Regression)
+- 如何設計 Bounding Box Loss Function
+- 了解 Bounding Box Regression 的原理
+
+### Day28 - [Non-Maximum Suppression (NMS)原理](./Day028_NMS)
+- 為什麼我們需要Non-Maximum Suppression (NMS)？
+- 不使⽤NMS會有什什麼影響？
+- NMS具體是如何運作的？
+
+### Day29-31 - [程式導讀、實作](./Day029-031_SSD%26RetinaNet)
+- 了解 SSD 中每⼀個步驟
+- 結合前幾章所學知識(IOU、Default BBOX、BBOX回歸、NMS )
+
+### Day32 - [YOLO 簡介及算法理解](./Day032_YOLO_Prediction)
+- 了解 YOLO 基本框架
+- YOLO 如何做到直接預測 bounding box 及其類別
+
+### Day33 - [YOLO 細節理解 - 網路輸出的後處理](./Day033_YOLO_Post-processing)
+- YOLO 輸出層轉換成 bbox 資訊的過程
+- NMS 在 YOLO 的實際運作
+- NMS 在 YOLO 中採用的信心度為何
