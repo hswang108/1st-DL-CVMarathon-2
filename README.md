@@ -136,3 +136,50 @@
 - YOLO 輸出層轉換成 bbox 資訊的過程
 - NMS 在 YOLO 的實際運作
 - NMS 在 YOLO 中採用的信心度為何
+
+### Day34 - [YOLO 細節理解 - 損失函數](./Day034_YOLO_Loss%20Function)
+- 定義什麼是損失函數
+- YOLOv1 損失函數的設計架構
+- YOLOv1 損失函數超參數的定義
+
+### Day35 - [YOLO 細節理解 - 損失函數程式碼解讀](./Day035_YOLO_Loss_Code)
+- 了解YOLO損失函數中每⼀個步驟
+
+### Day36 - [YOLO 細節理解 - 網路架構](./Day036_YOLO_Network)
+- 了解 YOLO 網絡架構的設計與原理
+
+### Day37 - [YOLO 細節理解 - 網路架構程式碼解讀](./Day037_YOLO_Network_Code)
+- 了解YOLOv1網絡架構的每一個步驟
+
+### Day38 - [YOLO 演進](./Handout/Day38.pdf)
+- 了解 YOLO 改進的思路
+- YOLO 的優缺點及其極限
+
+### Day39 - [使用 YOLOv3 偵測圖片及影片中的物件](./Day039_YOLO_Keras_Code)
+- 了解本課程推薦的 YOLOv3 程式碼使用⽅方式
+- 使用 YOLOv3 偵測圖片及影片中的物件
+
+### Day40 - [更快的檢測模型 - tiny YOLOv3](./Day040_YOLO_Tiny_Code)
+- 如何評估檢測模型的執行速度
+- 如何調用 tiny YOLOv3
+
+### Day41 - [訓練 YOLOv3](./Day041_YOLO_Train)
+- 如何訓練基於 VOC 資料集的檢測模型
+- 如何使用開源的深度學習程式碼
+<br>
+<br>
+
+## Day42~48 - [電腦視覺深度學習實戰](./Handout)
+
+### Day42 - [人臉關鍵點-資料結構簡介](./Day042_Facial_Keypoint)
+- Kaggle 臉部關鍵點資料結構
+
+### Day43 - [人臉關鍵點-檢測網路架構](./Day043_Define_Network)
+- 如何定義人臉關鍵點檢測相關的網路
+
+### Day44 - [訓練人臉關鍵點檢測網路](./Day044_Train_Facial_Keypoint)
+- 如何用 keras 訓練人臉關鍵點檢測點網路
+- 如何通過左右翻轉增加訓練資料集
+
+### Day45 - [人臉關鍵點應用](./Day045_Facial_Keypoint_Application)
+- 如何應用人臉關鍵點的檢測結果來做人臉濾鏡
