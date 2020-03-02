@@ -156,7 +156,7 @@
 - YOLO 的優缺點及其極限
 
 ### Day39 - [使用 YOLOv3 偵測圖片及影片中的物件](./Day039_YOLO_Keras_Code)
-- 了解本課程推薦的 YOLOv3 程式碼使用⽅方式
+- 了解本課程推薦的 YOLOv3 程式碼使用方式
 - 使用 YOLOv3 偵測圖片及影片中的物件
 
 ### Day40 - [更快的檢測模型 - tiny YOLOv3](./Day040_YOLO_Tiny_Code)
