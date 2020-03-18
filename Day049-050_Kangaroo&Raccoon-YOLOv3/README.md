@@ -1,10 +1,9 @@
-#  Street View House Numbers Detection by Keras-YOLOv3
+#  Kangaroo & Raccoon Detection by Keras-YOLOv3
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## Introduction
-
-A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/YAD2K](https://github.com/allanzelener/YAD2K).<br>
+A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3).<br>
 <img src="output/1.png" width="100" height="100"><img src="output/6.png" width="100" height="100"><img src="output/7.png" width="100" height="100"><img src="output/9.png" width="100" height="100"><img src="output/10.png" width="100" height="100">
 
 ---
@@ -34,22 +33,22 @@ For Tiny YOLOv3, just do in a similar way, just specify model path and anchor pa
 ---
 ## Training
 
-1. Download training data from [The Street View House Numbers (SVHN) Dataset](http://ufldl.stanford.edu/housenumbers/)   (*Format 1: Full Numbers*)
+1. Download training data from [experiencor/kangaroo](https://github.com/experiencor/kangaroo) & [experiencor/raccoon_dataset](https://github.com/experiencor/raccoon_dataset)<br>
+(Kangaroo dataset may lose some images. 183 images actually is 164)<br>
+(#8、15、35、57、58、63、67、68、70、82、104、106、126、133、135、138、142、160、165)
 ```
-	wget http://ufldl.stanford.edu/housenumbers/train.tar.gz
-	wget http://ufldl.stanford.edu/housenumbers/test.tar.gz
-	tar zxvf train.tar.gz
-	tar zxvf test.tar.gz
+	wget https://github.com/experiencor/kangaroo/archive/master.zip -O kangaroo.zip
+	wget https://github.com/experiencor/raccoon_dataset/archive/master.zip -O raccoon.zip
+	unzip kagaroo.zip
+	unzip raccoon.zip
 ```
 
-2. Annotation file and class names file **(option)**
-	- Get SVHN VOC Annotations from [penny4860/svhn-voc-annotation-format](https://github.com/penny4860/svhn-voc-annotation-format)
-	* Use **voc_annotation.py** to convert VOC annotations to txt version
-	* Class names file is on **model_data/svhn_classes.txt**
-
+2. Move Annotations & Images into the Directory
 	```
-	wget https://github.com/penny4860/svhn-voc-annotation-format/archive/master.zip
-	unzip master.zip
+	mv kangaroo-master/images/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/images
+	mv kangaroo-master/annots/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/annotations
+	mv raccoon_dataset-master/images/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/images
+	mv raccoon_dataset-master/annotations/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/annotations
 	python voc_annotation.py
 	```
 
@@ -65,11 +64,10 @@ For Tiny YOLOv3, just do in a similar way, just specify model path and anchor pa
     ...
     ```
 
-2. Make sure you have run `python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5`  
-    The file model_data/yolo_weights.h5 is used to load pretrained weights.
+2. Make sure you have run `python convert.py -w yolov3-spp.cfg yolov3-spp.weights yolov3-spp-weight/yolov3-spp_weights.h5`  
+    The file yolov3-spp-weight/yolov3-spp_weights.h5 is used to load pretrained weights.
 
 3. Modify train.py and start training.  `python train.py` 
-	Or use Juypter Notebook `train_notebook_version.ipynb`
 	
     Use your trained weights or checkpoint weights with command line option `--model model_file` when using yolo_video.py
     Remember to modify `annotation path`, `anchor path`, `classes path` ,  `log_dir path` and `weights_path` when create model.
@@ -112,7 +110,7 @@ optional arguments:
 
 1. The test environment is
     - Python 3.6.9
-    - Keras 2.1.5
+    - Keras 2.2.5
     - tensorflow-gpu 1.14.0
 
 2. Default anchors are used. If you use your own anchors, probably some changes are needed.
