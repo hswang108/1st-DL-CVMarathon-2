@@ -3,6 +3,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## Introduction
+
 A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3).<br>
 <img src="output/1.jpg" width="200" height="200"><img src="output/2.jpg" width="300" height="200">
 <br>
@@ -10,6 +11,7 @@ A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [qqwweee/keras
 <br>
 [![Kangaroo](http://img.youtube.com/vi/8gWVzPGTyMo/0.jpg)](http://www.youtube.com/watch?v=8gWVzPGTyMo "Kangaroo")
 [![Raccoon](http://img.youtube.com/vi/DV1PYejPbGg/0.jpg)](http://www.youtube.com/watch?v=DV1PYejPbGg "Raccoon")
+
 ---
 
 ## Quick Start
@@ -49,10 +51,10 @@ For Tiny YOLOv3, just do in a similar way, just specify model path and anchor pa
 
 2. Move Annotations & Images into the Directory
 	```
-	mv kangaroo-master/images/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/images
-	mv kangaroo-master/annots/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/annotations
-	mv raccoon_dataset-master/images/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/images
-	mv raccoon_dataset-master/annotations/* Day049-050_Kangaroo&Raccoon-YOLOv3/data/annotations
+	mv kangaroo-master/images/* data/images
+	mv kangaroo-master/annots/* data/annotations
+	mv raccoon_dataset-master/images/* data/images
+	mv raccoon_dataset-master/annotations/* data/annotations
 	python voc_annotation.py
 	```
 
