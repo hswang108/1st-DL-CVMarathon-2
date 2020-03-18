@@ -4,7 +4,7 @@
 
 ## Introduction
 A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3).<br>
-<img src="output/1.png" width="100" height="100"><img src="output/6.png" width="100" height="100"><img src="output/7.png" width="100" height="100"><img src="output/9.png" width="100" height="100"><img src="output/10.png" width="100" height="100">
+<img src="output/1.jpg" width="200" height="200"><img src="output/2.jpg" width="300" height="200"><img src="output/3.jpg" width="300" height="200"><img src="output/4.jpg" width="200" height="200">
 
 ---
 
