@@ -190,12 +190,14 @@
 
 ### Day47 - [Mobilenetv2](./Day047_MobileNetv2)
 - MobileNet v2 核心思想
-- Linear bottleneck
-- Inverted residual block
+ * Linear bottleneck
+ * Inverted residual block
 
 ### Day48 - [Tensorflow Object Detection API](./Day048_Tensorflow_object_detection_api_installation)
 - Tensorflow Object Detection API 使用方式
-- 如何⽤用來來做 training
+- 如何用來來做 training
+<br> 
+<br>  
 
 ## Day49~50 - [期末專題](./Handout)
 ### Day49~50 - [期末專題 - Raccoon & Kangaroo Detection浣熊與袋鼠辨識](https://www.cupoy.com/clubnews/ai_tw/0000016E62FABB7A000000016375706F795F72656C656173654B5741535354434C5542/0000017053CA3A7C0000002F6375706F795F72656C656173654B5741535354434C55424E455753)
