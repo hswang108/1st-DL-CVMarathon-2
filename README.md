@@ -190,9 +190,9 @@
 
 ### Day47 - [Mobilenetv2](./Day047_MobileNetv2)
 - MobileNet v2 核心思想
- * Linear bottleneck
- * Inverted residual block
-
+  * Linear bottleneck
+  * Inverted residual block
+  
 ### Day48 - [Tensorflow Object Detection API](./Day048_Tensorflow_object_detection_api_installation)
 - Tensorflow Object Detection API 使用方式
 - 如何用來來做 training
