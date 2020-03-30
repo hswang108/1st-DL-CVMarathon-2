@@ -183,3 +183,18 @@
 
 ### Day45 - [人臉關鍵點應用](./Day045_Facial_Keypoint_Application)
 - 如何應用人臉關鍵點的檢測結果來做人臉濾鏡
+
+### Day46 - [Mobilenet](./Day046_MobileNet)
+- 認識輕量化模型的方法
+- MobileNet 架構設計 (Separable Convolution)
+
+### Day47 - [Mobilenetv2](./Day047_MobileNetv2)
+- MobileNet v2 核心思想
+- Linear bottleneck
+- Inverted residual block
+
+### Day48 - [Tensorflow Object Detection API](./Day048_Tensorflow_object_detection_api_installation)
+- Tensorflow Object Detection API 使用方式
+- 如何⽤用來來做 training
+
+## Day49~50 - [期末專題](https://www.cupoy.com/clubnews/ai_tw/0000016E62FABB7A000000016375706F795F72656C656173654B5741535354434C5542/0000017053CA3A7C0000002F6375706F795F72656C656173654B5741535354434C55424E455753)
